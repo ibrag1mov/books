@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    background: rgb(0, 0, 0);
+}
+html::-webkit-scrollbar-button{
+    background-color: #0e0e0e;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(74, 74, 74);
+}
+
+.new-w-5{
+    width: 5% !important;
+}
+.new-w-10{
+    width: 10% !important;
+}
+.new-w-20{
+    width: 20% !important;
+}
+.new-w-30{
+    width: 30% !important;
+}
+.new-w-40{
+    width: 40% !important;
+}
+.new-w-60{
+    width: 60% !important;
+}
+.new-w-80{
+    width: 80% !important;
+}
+.new-w-90{
+    width: 90% !important;
+}
+
+:root{
+    --color-white: #fff;
+    --color-dark: rgb(27, 26, 26);
+    --bg-info: rgb(140,195,169);
+    --bg-dark: #0e0e0e;
+    --bg-dark-75: #1d1e20;
+}
+.text-shadow{
+    text-shadow: 0px 1px 11px rgba(255,255,255,0.78) !important;
+}
+
+.header{
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 20px 1px #050505cb !important;
+}
+.title-link{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--color-white);
+}
+.title-link:hover{
+    color: var(--color-white);
+    opacity: 0.8;
+}
+
+#search::placeholder{
+    color: rgb(201, 199, 199);
+}
+#search:focus{
+    box-shadow: none !important;
+}
+
+
+.header,
+.choose{
+    background-color: var(--bg-dark);
+}
+
+.main{
+    padding-top: 95px;
+}
+
+.book-list{
+    background-color: var(--bg-dark);
+}
+
+.card-wrapper{
+    width: 98%;
+    padding: 0 3.3%;
+}
+
+.card{
+    position: relative;
+    width: 215px !important;
+    box-sizing: content-box;
+    background-color: var(--bg-dark);
+    border: 1px solid rgb(150, 150, 150);
+    cursor: pointer;
+}
+.card-title{
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.carusel{
+    background-color: rgba(0, 0, 0, 0.313);
+    backdrop-filter: blur(10px);
+    height: 440px;
+    background-image: url(../images/book-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+}
+
+
+.book-list{
+    background-color: var(--bg-dark-75);
+}
+
+.res{
+    width: 98%;
+    padding: 0 35px;
+}
+
+
+/* clip-path: polygon(0 0, 100% 0, 57% 100%, 0% 100%); */
