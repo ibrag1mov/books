@@ -91,6 +91,7 @@ html::-webkit-scrollbar-thumb{
 .card-wrapper{
     width: 98%;
     padding: 0 3.3%;
+    padding-bottom: 100px;
 }
 
 .card{
@@ -107,7 +108,20 @@ html::-webkit-scrollbar-thumb{
     font-weight: 500;
 }
 
-
+.year{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px #0e0e0e;
+    background-color: rgba(223, 57, 57, 0.874);
+    color: var(--color-white);
+}
 
 .carusel{
     background-color: rgba(0, 0, 0, 0.313);
@@ -130,5 +144,21 @@ html::-webkit-scrollbar-thumb{
     padding: 0 35px;
 }
 
+
+.select{
+    position: relative;
+    background-color: transparent;
+    text-align: center;
+    color: var(--color-white);
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.select option{
+    background-color: var(--bg-dark-75);
+}
+
+.darkmode{
+    border: none;
+}
 
 /* clip-path: polygon(0 0, 100% 0, 57% 100%, 0% 100%); */

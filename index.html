@@ -39,11 +39,9 @@
                     </form>
                 </nav>
                 <div class="dark-mode new-w-5">
-                    <button class="btn btn-transparent ms-auto p-0 d-block">
+                    <button class="btn btn-transparent ms-auto p-0 d-block darkmode">
                         <i class="bi bi-sun text-white pe-none fs-4 text-shadow"></i>
                     </button>
-                    <!-- <button class="btn ms-auto p-0 darkmode">
-                    </button> -->
                 </div>
             </div>
         </div>
@@ -66,6 +64,7 @@
                 <div class="container">
                     <div class="row w-100 m-0">
                         <form id="sort-from" class="d-flex w-100 justify-content-between">
+                           
                             <select class="select new-w-20" name="sort-name" id="sort-name">
                                 <option value="name" selected>Sort by Name</option>
                                 <option value="A-Z">A-Z</option>
@@ -88,9 +87,8 @@
             <div class="book-list">
                 <div class="container">
                     <h2 class="text-white px-5 pt-4">Books</h2>
-                    <p class="text-warning py-1 mb-4 mx-auto bg-secondary bg-opacity-25 rounded res">Books &raquo; Sort
-                        by Name &raquo; A-Z</p>
-                    <div class="row card-wrapper  mx-auto gap-4 js-card-list">
+                    <p class="text-warning d-none py-1 mb-4 mx-auto bg-secondary bg-opacity-25 rounded res">Books &raquo; <span class="el-name"></span> &raquo; <span class="el-value"></span></p>
+                    <div class="row card-wrapper mt-5  mx-auto gap-4 js-card-list">
 
                     </div>
                 </div>
@@ -98,6 +96,26 @@
         </section>
 
     </main>
+    <footer class="bg-primary bg-opacity-75 m-0 py-5">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis cum ex velit delectus hic. Officiis ex
+                debitis totam iusto illo repellat doloremque consequuntur expedita saepe quia nisi impedit illum at iste
+                repellendus amet, temporibus minima quaerat deleniti ipsam laboriosam! Distinctio voluptatem quae ipsam
+                mollitia, autem recusandae molestiae doloremque sequi odit a, unde aperiam sapiente harum architecto
+                aliquid vel voluptas delectus necessitatibus perferendis nobis quis! Eius odit ipsa atque laboriosam
+                unde vel amet quis porro perferendis quasi, dicta, iure exercitationem dolores sequi distinctio magni
+                sint enim nobis sunt id iusto, et corporis accusantium! Odio minus sapiente, itaque ea dicta voluptatem
+                autem? Voluptatum, vel. Ratione consectetur maxime eius dolorem dicta. Laudantium repellat blanditiis
+                nulla aperiam perspiciatis voluptas, sed rem corrupti voluptates quod tempora temporibus nostrum iste
+                minima eos dolorum accusamus. Nisi id enim distinctio provident doloribus iste optio, iure odio adipisci
+                aliquam autem vel suscipit soluta eos commodi sed mollitia reiciendis architecto qui. Quis, dicta.
+                Sapiente, explicabo! Similique earum, tempora inventore placeat incidunt et in nobis ex dolorem
+                excepturi, molestiae aspernatur, minus nostrum cum aperiam aliquid? Quo tenetur corporis aliquid
+                assumenda possimus culpa perspiciatis exercitationem sapiente similique quos praesentium, ratione
+                veritatis natus adipisci veniam enim magni. Ab a tempore veritatis accusantium magni?</p>
+        </div>
+    </footer>
+
     <script src="js/books.js"></script>
     <script src="js/main.js"></script>
 </body>

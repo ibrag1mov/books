@@ -8,7 +8,7 @@ let books = [
         pages: 209,
         title: "things fall apart",
         year: 1958,
-        id: "1",
+        id: 1,
         bookmarked: true
     },
     {
@@ -20,7 +20,7 @@ let books = [
         pages: 784,
         title: "fairy tales",
         year: 1836,
-        id: "2",
+        id: 2,
         bookmarked: false
     },
     {
@@ -32,7 +32,7 @@ let books = [
         pages: 928,
         title: "the divine comedy",
         year: 1315,
-        id: "3",
+        id: 3,
         bookmarked: true
     },
     {
@@ -44,7 +44,7 @@ let books = [
         pages: 160,
         title: "the epic of gilgamesh",
         year: -1700,
-        id: "4",
+        id: 4,
         bookmarked: true
     },
     {
@@ -56,7 +56,7 @@ let books = [
         pages: 176,
         title: "the book of job",
         year: -600,
-        id: "5",
+        id: 5,
         bookmarked: false
     },
     {
@@ -68,7 +68,7 @@ let books = [
         pages: 288,
         title: "one thousand and one nights",
         year: 1200,
-        id: "6",
+        id: 6,
         bookmarked: false
     },
     {
@@ -80,7 +80,7 @@ let books = [
         pages: 384,
         title: "njál's saga",
         year: 1350,
-        id: "7",
+        id: 7,
         bookmarked: false
     },
     {
@@ -92,7 +92,7 @@ let books = [
         pages: 226,
         title: "pride and prejudice",
         year: 1813,
-        id: "8",
+        id: 8,
         bookmarked: false
     },
     {
@@ -104,7 +104,7 @@ let books = [
         pages: 443,
         title: "le père goriot",
         year: 1835,
-        id: "9",
+        id: 9,
         bookmarked: false
     },
     {
@@ -116,7 +116,7 @@ let books = [
         pages: 256,
         title: "molloy, malone dies, the unnamable, the trilogy",
         year: 1952,
-        id: "10",
+        id: 10,
         bookmarked: false
     },
     {
@@ -128,7 +128,7 @@ let books = [
         pages: 1024,
         title: "the decameron",
         year: 1351,
-        id: "11",
+        id: 11,
         bookmarked: false
     },
     {
@@ -140,7 +140,7 @@ let books = [
         pages: 224,
         title: "ficciones",
         year: 1965,
-        id: "12",
+        id: 12,
         bookmarked: false
     },
     {
@@ -152,7 +152,7 @@ let books = [
         pages: 342,
         title: "wuthering heights",
         year: 1847,
-        id: "13",
+        id: 13,
         bookmarked: false
     },
     {
@@ -164,7 +164,7 @@ let books = [
         pages: 185,
         title: "the stranger",
         year: 1942,
-        id: "14",
+        id: 14,
         bookmarked: false
     },
     {
@@ -176,7 +176,7 @@ let books = [
         pages: 320,
         title: "poems",
         year: 1952,
-        id: "15",
+        id: 15,
         bookmarked: false
     },
     {
@@ -188,7 +188,7 @@ let books = [
         pages: 505,
         title: "journey to the end of the night",
         year: 1932,
-        id: "16",
+        id: 16,
         bookmarked: false
     },
     {
@@ -200,7 +200,7 @@ let books = [
         pages: 1056,
         title: "don quijote de la mancha",
         year: 1610,
-        id: "17",
+        id: 17,
         bookmarked: false
     },
     {
@@ -212,7 +212,7 @@ let books = [
         pages: 544,
         title: "the canterbury tales",
         year: 1450,
-        id: "18",
+        id: 18,
         bookmarked: false
     },
     {
@@ -224,7 +224,7 @@ let books = [
         pages: 194,
         title: "stories",
         year: 1886,
-        id: "19",
+        id: 19,
         bookmarked: false
     },
     {
@@ -236,7 +236,7 @@ let books = [
         pages: 320,
         title: "nostromo",
         year: 1904,
-        id: "20",
+        id: 20,
         bookmarked: false
     },
     {
@@ -248,7 +248,7 @@ let books = [
         pages: 194,
         title: "great expectations",
         year: 1861,
-        id: "21",
+        id: 21,
         bookmarked: false
     },
     {
@@ -260,7 +260,7 @@ let books = [
         pages: 596,
         title: "jacques the fatalist",
         year: 1796,
-        id: "22",
+        id: 22,
         bookmarked: false
     },
     {
@@ -272,7 +272,7 @@ let books = [
         pages: 600,
         title: "berlin alexanderplatz",
         year: 1929,
-        id: "23",
+        id: 23,
         bookmarked: false
     },
     {
@@ -284,7 +284,7 @@ let books = [
         pages: 551,
         title: "crime and punishment",
         year: 1866,
-        id: "24",
+        id: 24,
         bookmarked: false
     },
     {
@@ -296,7 +296,7 @@ let books = [
         pages: 656,
         title: "the idiot",
         year: 1869,
-        id: "25",
+        id: 25,
         bookmarked: false
     },
     {
@@ -308,7 +308,7 @@ let books = [
         pages: 768,
         title: "the possessed",
         year: 1872,
-        id: "26",
+        id: 26,
         bookmarked: false
     },
     {
@@ -320,7 +320,7 @@ let books = [
         pages: 824,
         title: "the brothers karamazov",
         year: 1880,
-        id: "27",
+        id: 27,
         bookmarked: false
     },
     {
@@ -332,7 +332,7 @@ let books = [
         pages: 800,
         title: "middlemarch",
         year: 1871,
-        id: "28",
+        id: 28,
         bookmarked: false
     },
     {
@@ -344,7 +344,7 @@ let books = [
         pages: 581,
         title: "invisible man",
         year: 1952,
-        id: "29",
+        id: 29,
         bookmarked: false
     },
     {
@@ -356,7 +356,7 @@ let books = [
         pages: 104,
         title: "medea",
         year: -431,
-        id: "30",
+        id: 30,
         bookmarked: false
     },
     {
@@ -368,7 +368,7 @@ let books = [
         pages: 313,
         title: "absalom, absalom!",
         year: 1936,
-        id: "31",
+        id: 31,
         bookmarked: false
     },
     {
@@ -380,7 +380,7 @@ let books = [
         pages: 326,
         title: "the sound and the fury",
         year: 1929,
-        id: "32",
+        id: 32,
         bookmarked: false
     },
     {
@@ -392,7 +392,7 @@ let books = [
         pages: 528,
         title: "madame bovary",
         year: 1857,
-        id: "33",
+        id: 33,
         bookmarked: false
     },
     {
@@ -404,7 +404,7 @@ let books = [
         pages: 606,
         title: "sentimental education",
         year: 1869,
-        id: "34",
+        id: 34,
         bookmarked: false
     },
     {
@@ -416,7 +416,7 @@ let books = [
         pages: 218,
         title: "gypsy ballads",
         year: 1928,
-        id: "35",
+        id: 35,
         bookmarked: false
     },
     {
@@ -428,7 +428,7 @@ let books = [
         pages: 417,
         title: "one hundred years of solitude",
         year: 1967,
-        id: "36",
+        id: 36,
         bookmarked: false
     },
     {
@@ -440,7 +440,7 @@ let books = [
         pages: 368,
         title: "love in the time of cholera",
         year: 1985,
-        id: "37",
+        id: 37,
         bookmarked: false
     },
     {
@@ -452,7 +452,7 @@ let books = [
         pages: 158,
         title: "faust",
         year: 1832,
-        id: "38",
+        id: 38,
         bookmarked: false
     },
     {
@@ -464,7 +464,7 @@ let books = [
         pages: 432,
         title: "dead souls",
         year: 1842,
-        id: "39",
+        id: 39,
         bookmarked: false
     },
     {
@@ -476,7 +476,7 @@ let books = [
         pages: 600,
         title: "the tin drum",
         year: 1959,
-        id: "40",
+        id: 40,
         bookmarked: false
     },
     {
@@ -488,7 +488,7 @@ let books = [
         pages: 494,
         title: "the devil to pay in the backlands",
         year: 1956,
-        id: "41",
+        id: 41,
         bookmarked: false
     },
     {
@@ -500,7 +500,7 @@ let books = [
         pages: 176,
         title: "hunger",
         year: 1890,
-        id: "42",
+        id: 42,
         bookmarked: false
     },
     {
@@ -512,7 +512,7 @@ let books = [
         pages: 128,
         title: "the old man and the sea",
         year: 1952,
-        id: "43",
+        id: 43,
         bookmarked: false
     },
     {
@@ -524,7 +524,7 @@ let books = [
         pages: 608,
         title: "iliad",
         year: -735,
-        id: "44",
+        id: 44,
         bookmarked: false
     },
     {
@@ -536,7 +536,7 @@ let books = [
         pages: 374,
         title: "odyssey",
         year: -800,
-        id: "45",
+        id: 45,
         bookmarked: false
     },
     {
@@ -548,7 +548,7 @@ let books = [
         pages: 68,
         title: "a doll's house",
         year: 1879,
-        id: "46",
+        id: 46,
         bookmarked: false
     },
     {
@@ -560,7 +560,7 @@ let books = [
         pages: 228,
         title: "ulysses",
         year: 1922,
-        id: "47",
+        id: 47,
         bookmarked: false
     },
     {
@@ -572,7 +572,7 @@ let books = [
         pages: 488,
         title: "stories",
         year: 1924,
-        id: "48",
+        id: 48,
         bookmarked: false
     },
     {
@@ -584,7 +584,7 @@ let books = [
         pages: 160,
         title: "the trial",
         year: 1925,
-        id: "49",
+        id: 49,
         bookmarked: false
     },
     {
@@ -596,7 +596,7 @@ let books = [
         pages: 352,
         title: "the castle",
         year: 1926,
-        id: "50",
+        id: 50,
         bookmarked: false
     },
     {
@@ -608,7 +608,7 @@ let books = [
         pages: 147,
         title: "the recognition of shakuntala",
         year: 150,
-        id: "51",
+        id: 51,
         bookmarked: false
     },
     {
@@ -620,7 +620,7 @@ let books = [
         pages: 288,
         title: "the sound of the mountain",
         year: 1954,
-        id: "52",
+        id: 52,
         bookmarked: false
     },
     {
@@ -632,7 +632,7 @@ let books = [
         pages: 368,
         title: "zorba the greek",
         year: 1946,
-        id: "53",
+        id: 53,
         bookmarked: false
     },
     {
@@ -644,7 +644,7 @@ let books = [
         pages: 432,
         title: "sons and lovers",
         year: 1913,
-        id: "54",
+        id: 54,
         bookmarked: false
     },
     {
@@ -656,7 +656,7 @@ let books = [
         pages: 470,
         title: "independent people",
         year: 1934,
-        id: "55",
+        id: 55,
         bookmarked: false
     },
     {
@@ -668,7 +668,7 @@ let books = [
         pages: 184,
         title: "poems",
         year: 1818,
-        id: "56",
+        id: 56,
         bookmarked: false
     },
     {
@@ -680,7 +680,7 @@ let books = [
         pages: 688,
         title: "the golden notebook",
         year: 1962,
-        id: "57",
+        id: 57,
         bookmarked: false
     },
     {
@@ -692,7 +692,7 @@ let books = [
         pages: 160,
         title: "pippi longstocking",
         year: 1945,
-        id: "58",
+        id: 58,
         bookmarked: false
     },
     {
@@ -704,7 +704,7 @@ let books = [
         pages: 389,
         title: "diary of a madman",
         year: 1918,
-        id: "59",
+        id: 59,
         bookmarked: false
     },
     {
@@ -716,7 +716,7 @@ let books = [
         pages: 355,
         title: "children of gebelawi",
         year: 1959,
-        id: "60",
+        id: 60,
         bookmarked: false
     },
     {
@@ -728,7 +728,7 @@ let books = [
         pages: 736,
         title: "buddenbrooks",
         year: 1901,
-        id: "61",
+        id: 61,
         bookmarked: false
     },
     {
@@ -740,7 +740,7 @@ let books = [
         pages: 720,
         title: "the magic mountain",
         year: 1924,
-        id: "62",
+        id: 62,
         bookmarked: false
     },
     {
@@ -752,7 +752,7 @@ let books = [
         pages: 378,
         title: "moby dick",
         year: 1851,
-        id: "63",
+        id: 63,
         bookmarked: false
     },
     {
@@ -764,7 +764,7 @@ let books = [
         pages: 404,
         title: "essays",
         year: 1595,
-        id: "64",
+        id: 64,
         bookmarked: false
     },
     {
@@ -776,7 +776,7 @@ let books = [
         pages: 600,
         title: "history",
         year: 1974,
-        id: "65",
+        id: 65,
         bookmarked: false
     },
     {
@@ -788,7 +788,7 @@ let books = [
         pages: 321,
         title: "beloved",
         year: 1987,
-        id: "66",
+        id: 66,
         bookmarked: false
     },
     {
@@ -800,7 +800,7 @@ let books = [
         pages: 1360,
         title: "the tale of genji",
         year: 1006,
-        id: "67",
+        id: 67,
         bookmarked: false
     },
     {
@@ -812,7 +812,7 @@ let books = [
         pages: 365,
         title: "the man without qualities",
         year: 1931,
-        id: "68",
+        id: 68,
         bookmarked: false
     },
     {
@@ -824,7 +824,7 @@ let books = [
         pages: 317,
         title: "lolita",
         year: 1955,
-        id: "69",
+        id: 69,
         bookmarked: false
     },
     {
@@ -836,7 +836,7 @@ let books = [
         pages: 272,
         title: "nineteen eighty-four",
         year: 1949,
-        id: "70",
+        id: 70,
         bookmarked: false
     },
     {
@@ -848,7 +848,7 @@ let books = [
         pages: 576,
         title: "metamorphoses",
         year: 100,
-        id: "71",
+        id: 71,
         bookmarked: false
     },
     {
@@ -860,7 +860,7 @@ let books = [
         pages: 272,
         title: "the book of disquiet",
         year: 1928,
-        id: "72",
+        id: 72,
         bookmarked: false
     },
     {
@@ -872,7 +872,7 @@ let books = [
         pages: 842,
         title: "tales",
         year: 1950,
-        id: "73",
+        id: 73,
         bookmarked: false
     },
     {
@@ -884,7 +884,7 @@ let books = [
         pages: 2408,
         title: "in search of lost time",
         year: 1920,
-        id: "74",
+        id: 74,
         bookmarked: false
     },
     {
@@ -896,7 +896,7 @@ let books = [
         pages: 623,
         title: "gargantua and pantagruel",
         year: 1533,
-        id: "75",
+        id: 75,
         bookmarked: false
     },
     {
@@ -908,7 +908,7 @@ let books = [
         pages: 124,
         title: "pedro páramo",
         year: 1955,
-        id: "76",
+        id: 76,
         bookmarked: false
     },
     {
@@ -920,7 +920,7 @@ let books = [
         pages: 438,
         title: "the masnavi",
         year: 1236,
-        id: "77",
+        id: 77,
         bookmarked: false
     },
     {
@@ -932,7 +932,7 @@ let books = [
         pages: 536,
         title: "midnight's children",
         year: 1981,
-        id: "78",
+        id: 78,
         bookmarked: false
     },
     {
@@ -944,7 +944,7 @@ let books = [
         pages: 298,
         title: "bostan",
         year: 1257,
-        id: "79",
+        id: 79,
         bookmarked: false
     },
     {
@@ -956,7 +956,7 @@ let books = [
         pages: 139,
         title: "season of migration to the north",
         year: 1966,
-        id: "80",
+        id: 80,
         bookmarked: false
     },
     {
@@ -968,7 +968,7 @@ let books = [
         pages: 352,
         title: "blindness",
         year: 1995,
-        id: "81",
+        id: 81,
         bookmarked: false
     },
     {
@@ -980,7 +980,7 @@ let books = [
         pages: 432,
         title: "hamlet",
         year: 1603,
-        id: "82",
+        id: 82,
         bookmarked: false
     },
     {
@@ -992,7 +992,7 @@ let books = [
         pages: 384,
         title: "king lear",
         year: 1608,
-        id: "83",
+        id: 83,
         bookmarked: false
     },
     {
@@ -1004,7 +1004,7 @@ let books = [
         pages: 314,
         title: "othello",
         year: 1609,
-        id: "84",
+        id: 84,
         bookmarked: false
     },
     {
@@ -1016,7 +1016,7 @@ let books = [
         pages: 88,
         title: "oedipus the king",
         year: -430,
-        id: "85",
+        id: 85,
         bookmarked: false
     },
     {
@@ -1028,7 +1028,7 @@ let books = [
         pages: 576,
         title: "the red and the black",
         year: 1830,
-        id: "86",
+        id: 86,
         bookmarked: false
     },
     {
@@ -1040,7 +1040,7 @@ let books = [
         pages: 640,
         title: "the life and opinions of tristram shandy",
         year: 1760,
-        id: "87",
+        id: 87,
         bookmarked: false
     },
     {
@@ -1052,7 +1052,7 @@ let books = [
         pages: 412,
         title: "confessions of zeno",
         year: 1923,
-        id: "88",
+        id: 88,
         bookmarked: false
     },
     {
@@ -1064,7 +1064,7 @@ let books = [
         pages: 178,
         title: "gulliver's travels",
         year: 1726,
-        id: "89",
+        id: 89,
         bookmarked: false
     },
     {
@@ -1076,7 +1076,7 @@ let books = [
         pages: 1296,
         title: "war and peace",
         year: 1867,
-        id: "90",
+        id: 90,
         bookmarked: false
     },
     {
@@ -1088,7 +1088,7 @@ let books = [
         pages: 864,
         title: "anna karenina",
         year: 1877,
-        id: "91",
+        id: 91,
         bookmarked: false
     },
     {
@@ -1100,7 +1100,7 @@ let books = [
         pages: 92,
         title: "the death of ivan ilyich",
         year: 1886,
-        id: "92",
+        id: 92,
         bookmarked: false
     },
     {
@@ -1112,7 +1112,7 @@ let books = [
         pages: 224,
         title: "the adventures of huckleberry finn",
         year: 1884,
-        id: "93",
+        id: 93,
         bookmarked: false
     },
     {
@@ -1124,7 +1124,7 @@ let books = [
         pages: 152,
         title: "ramayana",
         year: -450,
-        id: "94",
+        id: 94,
         bookmarked: false
     },
     {
@@ -1136,7 +1136,7 @@ let books = [
         pages: 442,
         title: "the aeneid",
         year: -23,
-        id: "95",
+        id: 95,
         bookmarked: false
     },
     {
@@ -1148,7 +1148,7 @@ let books = [
         pages: 276,
         title: "mahabharata",
         year: -700,
-        id: "96",
+        id: 96,
         bookmarked: false
     },
     {
@@ -1160,7 +1160,7 @@ let books = [
         pages: 152,
         title: "leaves of grass",
         year: 1855,
-        id: "97",
+        id: 97,
         bookmarked: false
     },
     {
@@ -1172,7 +1172,7 @@ let books = [
         pages: 216,
         title: "mrs dalloway",
         year: 1925,
-        id: "98",
+        id: 98,
         bookmarked: false
     },
     {
@@ -1184,7 +1184,7 @@ let books = [
         pages: 209,
         title: "to the lighthouse",
         year: 1927,
-        id: "99",
+        id: 99,
         bookmarked: false
     },
     {
@@ -1196,7 +1196,7 @@ let books = [
         pages: 408,
         title: "memoirs of hadrian",
         year: 1951,
-        id: "100",
+        id: 100,
         bookmarked: false
     }
 ]
