@@ -30,7 +30,7 @@ const renderBook = (array, node) => {
 
 }
 
-renderBook(NewBook, elList)
+renderBook(books, elList)
 
 
 // search
